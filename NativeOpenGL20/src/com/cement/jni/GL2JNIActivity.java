@@ -40,6 +40,7 @@ public class GL2JNIActivity extends Activity {
         super.onCreate(icicle);
         mView = new GL2JNISurfaceView(getApplication());
 	    setContentView(mView);
+	    System.out.println("test github uplooad........");
     }
 
     @Override protected void onPause() {
