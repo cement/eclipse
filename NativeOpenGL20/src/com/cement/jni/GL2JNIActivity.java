@@ -34,7 +34,7 @@ import android.widget.Toast;
 
 public class GL2JNIActivity extends Activity {
 
-    GL2JNISurfaceView mView;
+    private GL2JNISurfaceView mView;
 
     @Override protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
