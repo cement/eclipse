@@ -1,6 +1,7 @@
 package com.cement.androidapp;
 
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,10 +50,11 @@ public class MainActivity extends ActionBarActivity {
 		public PlaceholderFragment() {
 		}
 
+		
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-			return rootView;
+			// TODO Auto-generated method stub
+			return super.onCreateView(inflater, container, savedInstanceState);
 		}
 	}
 }
