@@ -21,6 +21,7 @@ public class MainActivity extends ActionBarActivity {
 			getSupportFragmentManager().beginTransaction().add(R.id.container, new PlaceholderFragment()).commit();
 		}
 		System.out.println(".............................................");
+		System.out.println(".............................................");
 	}
 
 	@Override
