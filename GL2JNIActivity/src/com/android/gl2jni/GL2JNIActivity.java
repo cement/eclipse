@@ -33,6 +33,7 @@ public class GL2JNIActivity extends Activity {
         super.onCreate(icicle);
         mView = new GL2JNIView(getApplication());
 	    setContentView(mView);
+	    System.out.println(".........................");
     }
 
     @Override protected void onPause() {
