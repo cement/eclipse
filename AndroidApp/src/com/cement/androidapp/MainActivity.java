@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 		}
 		
 		Log.v(getClass().getSimpleName(), "test github upload......");
+		Log.v(getClass().getSimpleName(), "test github upload......2");
+		
 	}
 
 	@Override
